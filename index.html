@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip_Calculator</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header_title">SPLITTER</header>
+    <main id="main_body">
+        <div id="main_body_left">
+            <div>
+                <div class="body_left_grey_letter">Bill</div>
+                <div>
+                    <div><i class='bx bx-dollar'></i></div>
+                    <input type="text" placeholder="0.00">
+                </div>
+                
+            </div>
+            <div>
+                <div class="body_left_grey_letter">Select Tip %</div>
+                <div>
+                    <button>5%</button>
+                    <button>10%</button>
+                    <button>15%</button>
+                    <button>25%</button>
+                    <button>50%</button>
+                    <input type="text" placeholder="Custom">
+                </div>
+            </div>
+            <div> 
+                <div class="body_left_grey_letter">Number of people</div>
+                <div>
+                    <div><i class='bx bx-body'></i></div>
+                    <input type="number" placeholder="0"  min="0">
+                </div>
+            </div>
+        </div>
+        <div id="main_body_rigth">
+            <div>
+                <div>
+                    <div class="body_rigth_white_letter">Tip Amount</div>
+                    <div class="body_rigth_green_grey_letter">/ person</div>
+                </div>
+
+                <div class="body_rigth_green_bri_number">$0</div>
+            </div>
+            <div>
+                <div>
+                    <div class="body_rigth_white_letter">Total</div>
+                    <div class="body_rigth_green_grey_letter">/ person</div>
+                </div>
+
+                <div class="body_rigth_green_bri_number">$0</div>
+            </div>
+            <button type="reset">RESET</button>
+        </div>
+    </main>
+    <footer class="footer_design">
+        <div>
+            Made by jcastaneda07
+        </div>
+        <div>
+            <a href="https://github.com/jcastaneda07"><i class='bx bxl-github'></i></a>
+            <a href="https://codepen.io/jaco07"><i class='bx bxl-codepen'></i></a>
+            <a href="https://www.linkedin.com/in/jonathan-andres-casta%C3%B1eda-olarte-88919522a/"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
