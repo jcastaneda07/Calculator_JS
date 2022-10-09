@@ -73,9 +73,9 @@
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     border: 0;
-    border-radius: 15% ;
+    /* border-radius: 15% ; */
     padding: 2%;
-    cursor: pointer;
+    cursor: text;
     
     
 }
